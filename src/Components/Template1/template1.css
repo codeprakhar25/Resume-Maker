@@ -1,0 +1,46 @@
+.template-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    width: 50%;
+    height: 92%;
+    background-color: #514ba1;
+    position:fixed ;
+    right: 0;
+}
+.template-container{
+    display: flex;
+
+}
+.template-left{
+width: 50%;
+
+}
+.main-resume{
+    width: 63%;
+    background-color: aliceblue;
+    height: 85%;
+}
+.name-container{
+    display: flex;
+
+}
+.Gen-details{
+display: grid;
+grid-template-columns: 25% 25% ;
+}
+.add-job{
+    display: grid;
+grid-template-columns: 25% 25% ;
+}
+.add-skill{
+    color: rgb(67, 207, 242);
+    font-weight: 700;
+    cursor: pointer;
+    width: 20%;
+    margin-left: 10px;
+}
+.add-skill:hover{
+    border-radius: 4px;
+}

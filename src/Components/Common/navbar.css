@@ -1,0 +1,38 @@
+body{
+    overflow-x: hidden;
+}
+.navbar-container{
+    background-color: black;
+    display: flex;
+    color: aliceblue;
+    position: sticky;
+    top: 0;
+}
+.nav-left{
+    margin-left: 4%;
+
+}
+.nav-left h3{
+    transition: 1s;
+}
+.nav-left h3:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.nav-right{
+   margin-left: 30%;
+   width: 45%;
+}
+.nav-right ul{
+    display: flex;
+    flex-direction: row;
+list-style-type: none;
+justify-content: space-between;
+cursor: pointer;
+}
+.nav-right li{
+    transition: 0.6s;
+}
+.nav-right li:hover{
+    color: aqua;
+}
