@@ -4,7 +4,7 @@ import dataContext from '../../DataContext'
 import "./template1right.css"
 
 const Template1right = () => {
-    const {skill,lastname, setSkill, martial,education,contact,email,jobexp,setDob,setCompany,setEndd,setFathername,setJobexp,setProjectdesc,setStartd,setProjectname,startd,endd,projectdesc,projectname,company,dob,fathername,work,firstname,summary,jobtitle} = useContext(dataContext)
+    const {skill,lastname,martial,education,contact,email,jobexp,startd,endd,projectdesc,projectname,company,dob,fathername,work,firstname,summary,jobtitle} = useContext(dataContext)
 
 
   return (

@@ -26,7 +26,7 @@ const ContextProvider = (props) => {
 
     return (
         <div>
-          <dataContext.Provider value={{skill,setSkill,skilll,setSkilll,company,setCompany,addskill,addeducation,setAddeducation,setAddskill,education,seteducation,firstname,lastname,contact,email,summary,setSummary,setEmail,setJobtitle,setLastname,setContact,work,setWork,jobtitle,setFirstName,jobexp,setDob,setCompany,setEndd,setFathername,setStartd,setJobexp,setProjectdesc,setStartd,setProjectdesc,setFathername,setProjectname,startd,endd,projectdesc,projectname,dob,fathername,martial,setMartial}} >
+          <dataContext.Provider value={{skill,setSkill,skilll,setSkilll,company,setCompany,addskill,addeducation,setAddeducation,setAddskill,education,seteducation,firstname,lastname,contact,email,summary,setSummary,setEmail,setJobtitle,setLastname,setContact,work,setWork,jobtitle,setFirstName,jobexp,setDob,setEndd,setFathername,setStartd,setJobexp,setProjectdesc,setProjectname,startd,endd,projectdesc,projectname,dob,fathername,martial,setMartial}} >
             {props.children}
           </dataContext.Provider>
         </div>
