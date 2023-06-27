@@ -3,6 +3,7 @@ import './App.css';
 import Home from './Components/Home/Home';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Template1 from './Components/Template1/Template1';
+import Template2 from './Components/Template2/Template2';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Routes>
    <Route path="" element={<Home/>}/>  
   <Route path="template1" element={<Template1/>}/>
+  <Route path="template2" element={<Template2/>}/>
   </Routes>
    </Router>
    </>

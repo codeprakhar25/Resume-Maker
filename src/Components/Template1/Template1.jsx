@@ -12,8 +12,8 @@ const Template1 = () => {
 const {skill, setSkill} = useContext(dataContext)
 const {skilll, setSkilll} = useContext(dataContext)
 const {addskill, setAddskill} = useContext(dataContext)
-const {education, seteducation} = useContext(dataContext)
-const {addeducation, setAddeducation,firstname,summary,setSummary,setFirstName,lastname,setEmail,setLastname,jobexp,setDob,setCompany,setEndd,setFathername,setJobexp,setProjectdesc,setStartd,setProjectname,startd,endd,projectdesc,setMartial,projectname,dob,fathername,work,setWork,contact,setJobtitle,setContact} = useContext(dataContext)
+const {seteducation} = useContext(dataContext)
+const {addeducation, setAddeducation,setSummary,setFirstName,setEmail,setLastname,setDob,setCompany,setEndd,setFathername,setJobexp,setProjectdesc,setStartd,setProjectname,setMartial,work,setWork,setJobtitle,setContact} = useContext(dataContext)
 
 
   return (
