@@ -1,10 +1,7 @@
 import React, { useContext } from 'react'
-import { useState } from 'react'
 import dataContext from '../../DataContext'
 import "./template1.css"
 import Template1right from './Template1right'
-
-
 
 const Template1 = () => {
 
